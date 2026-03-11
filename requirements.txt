@@ -1,0 +1,23 @@
+# Polymarket AI Trading Bot
+# Core
+httpx>=0.27.0
+python-dotenv>=1.0.0
+aiosqlite>=0.20.0
+
+# Polymarket CLOB
+py-clob-client>=0.1.0
+
+# Telegram
+python-telegram-bot>=21.0
+
+# AI / LLM (optional — works without, but limited)
+openai>=1.0.0
+
+# Finance data (Yahoo Finance — no API key needed)
+yfinance>=0.2.30
+
+# Data processing
+feedparser>=6.0.0
+
+# WebSocket (for real-time data)
+websockets>=12.0
